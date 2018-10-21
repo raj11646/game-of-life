@@ -1,5 +1,5 @@
 pipeline {
-    agent Master
+    agent none
 
     stages {
         stage ('Compile Stage') {
